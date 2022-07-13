@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+         /* header */
+.headercontainer {
+    background-color: black;
+    }
+.header1 {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 0 50px;
+    align-items: center; 
+}
+
+span {
+    color: red;
+}
+
+.navbar > ul{
+    display: flex;
+    list-style: none;
+    
+}
+.navbar > ul > li {
+padding: 25px 5px;
+margin: 0px 30px;
+
+}
+.bar {
+    border-bottom: 3px red solid;
+}
+
+.navbar > ul > li:hover {
+    border-bottom: 3px red solid;
+}
+.navbar > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+          /* headerends */
+
+    /* wallpaper */
+    .caption {
+        background-image: url(about-heading.jpg);
+        height:75vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .textcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0,0, );
+    }
+    
+    
+    .textcaption > h1 {
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 65px;
+        font-weight: 400;
+        letter-spacing: 5px;
+    }
+    .textcaption > h3 {
+        color: red;
+        text-transform: uppercase;
+        font-size:25px ;
+        font-weight: 600;
+    }
+/* wallpaper ends */
+
+/* background */
+
+.ourbackground{
+display: flex;
+}
+.ourbackground > h2 {
+display: flex;
+padding: 30px;
+}
+
+.background {
+    display: grid;
+    grid-template-columns:repeat(2, 1fr) ;
+}
+.backgroundImage{
+    padding: 20px;
+}
+.backgroundWriteup {
+    padding: 20px;
+}
+.backgroundWriteup > h4 {
+   color:#1a6692;
+padding: 10px 10px 20px 10px;
+}
+.backgroundWriteup > p {
+    color: #4a4a4a;
+line-height: 25px;
+}
+
+/* background ends  */
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+color: #4a4a4a;
+    padding: 60px 0;
+    margin-top: 60px;
+    border-top: 1px solid #eee;
+}
+/* footer ends */
+
+
+
+
